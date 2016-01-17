@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8961566C1C4933DE00D667E2 /* SendOTPFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8961566B1C4933DE00D667E2 /* SendOTPFramework.framework */; };
+		8961566D1C49340100D667E2 /* SendOTPFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8961566B1C4933DE00D667E2 /* SendOTPFramework.framework */; };
+		8961566E1C49340100D667E2 /* SendOTPFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8961566B1C4933DE00D667E2 /* SendOTPFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		89EFE3341C477E2800B4B9DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EFE3331C477E2800B4B9DC /* main.m */; };
+		89EFE3371C477E2800B4B9DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EFE3361C477E2800B4B9DC /* AppDelegate.m */; };
+		89EFE33A1C477E2800B4B9DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EFE3391C477E2800B4B9DC /* ViewController.m */; };
+		89EFE33D1C477E2800B4B9DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89EFE33B1C477E2800B4B9DC /* Main.storyboard */; };
+		89EFE33F1C477E2800B4B9DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89EFE33E1C477E2800B4B9DC /* Assets.xcassets */; };
+		89EFE3421C477E2800B4B9DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89EFE3401C477E2800B4B9DC /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		89EFE3501C47811600B4B9DC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8961566E1C49340100D667E2 /* SendOTPFramework.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8961566B1C4933DE00D667E2 /* SendOTPFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SendOTPFramework.framework; sourceTree = "<group>"; };
+		89EFE32F1C477E2800B4B9DC /* SampleSendOTP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleSendOTP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89EFE3331C477E2800B4B9DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		89EFE3351C477E2800B4B9DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		89EFE3361C477E2800B4B9DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		89EFE3381C477E2800B4B9DC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		89EFE3391C477E2800B4B9DC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		89EFE33C1C477E2800B4B9DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		89EFE33E1C477E2800B4B9DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89EFE3411C477E2800B4B9DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89EFE3431C477E2800B4B9DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89EFE32C1C477E2800B4B9DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8961566C1C4933DE00D667E2 /* SendOTPFramework.framework in Frameworks */,
+				8961566D1C49340100D667E2 /* SendOTPFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89EFE3261C477E2800B4B9DC = {
+			isa = PBXGroup;
+			children = (
+				89EFE3311C477E2800B4B9DC /* SampleSendOTP */,
+				89EFE3301C477E2800B4B9DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89EFE3301C477E2800B4B9DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89EFE32F1C477E2800B4B9DC /* SampleSendOTP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89EFE3311C477E2800B4B9DC /* SampleSendOTP */ = {
+			isa = PBXGroup;
+			children = (
+				89EFE34B1C477E5B00B4B9DC /* Framework */,
+				89EFE3351C477E2800B4B9DC /* AppDelegate.h */,
+				89EFE3361C477E2800B4B9DC /* AppDelegate.m */,
+				89EFE3381C477E2800B4B9DC /* ViewController.h */,
+				89EFE3391C477E2800B4B9DC /* ViewController.m */,
+				89EFE33B1C477E2800B4B9DC /* Main.storyboard */,
+				89EFE33E1C477E2800B4B9DC /* Assets.xcassets */,
+				89EFE3401C477E2800B4B9DC /* LaunchScreen.storyboard */,
+				89EFE3431C477E2800B4B9DC /* Info.plist */,
+				89EFE3321C477E2800B4B9DC /* Supporting Files */,
+			);
+			path = SampleSendOTP;
+			sourceTree = "<group>";
+		};
+		89EFE3321C477E2800B4B9DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				89EFE3331C477E2800B4B9DC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		89EFE34B1C477E5B00B4B9DC /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				8961566B1C4933DE00D667E2 /* SendOTPFramework.framework */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89EFE32E1C477E2800B4B9DC /* SampleSendOTP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89EFE3461C477E2800B4B9DC /* Build configuration list for PBXNativeTarget "SampleSendOTP" */;
+			buildPhases = (
+				89EFE32B1C477E2800B4B9DC /* Sources */,
+				89EFE32C1C477E2800B4B9DC /* Frameworks */,
+				89EFE32D1C477E2800B4B9DC /* Resources */,
+				89EFE3501C47811600B4B9DC /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleSendOTP;
+			productName = SampleSendOTP;
+			productReference = 89EFE32F1C477E2800B4B9DC /* SampleSendOTP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89EFE3271C477E2800B4B9DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Walkover;
+				TargetAttributes = {
+					89EFE32E1C477E2800B4B9DC = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 89EFE32A1C477E2800B4B9DC /* Build configuration list for PBXProject "SampleSendOTP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89EFE3261C477E2800B4B9DC;
+			productRefGroup = 89EFE3301C477E2800B4B9DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89EFE32E1C477E2800B4B9DC /* SampleSendOTP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89EFE32D1C477E2800B4B9DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89EFE3421C477E2800B4B9DC /* LaunchScreen.storyboard in Resources */,
+				89EFE33F1C477E2800B4B9DC /* Assets.xcassets in Resources */,
+				89EFE33D1C477E2800B4B9DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89EFE32B1C477E2800B4B9DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89EFE33A1C477E2800B4B9DC /* ViewController.m in Sources */,
+				89EFE3371C477E2800B4B9DC /* AppDelegate.m in Sources */,
+				89EFE3341C477E2800B4B9DC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		89EFE33B1C477E2800B4B9DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89EFE33C1C477E2800B4B9DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		89EFE3401C477E2800B4B9DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89EFE3411C477E2800B4B9DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89EFE3441C477E2800B4B9DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89EFE3451C477E2800B4B9DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89EFE3471C477E2800B4B9DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SampleSendOTP",
+					"$(PROJECT_DIR)/SampleSendOTP/Framework",
+				);
+				INFOPLIST_FILE = SampleSendOTP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.walkover.mandapTak.SampleSendOTP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		89EFE3481C477E2800B4B9DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SampleSendOTP",
+					"$(PROJECT_DIR)/SampleSendOTP/Framework",
+				);
+				INFOPLIST_FILE = SampleSendOTP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.walkover.mandapTak.SampleSendOTP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89EFE32A1C477E2800B4B9DC /* Build configuration list for PBXProject "SampleSendOTP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89EFE3441C477E2800B4B9DC /* Debug */,
+				89EFE3451C477E2800B4B9DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89EFE3461C477E2800B4B9DC /* Build configuration list for PBXNativeTarget "SampleSendOTP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89EFE3471C477E2800B4B9DC /* Debug */,
+				89EFE3481C477E2800B4B9DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89EFE3271C477E2800B4B9DC /* Project object */;
+}
