@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8961566C1C4933DE00D667E2 /* SendOTPFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8961566B1C4933DE00D667E2 /* SendOTPFramework.framework */; };
-		8961566D1C49340100D667E2 /* SendOTPFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8961566B1C4933DE00D667E2 /* SendOTPFramework.framework */; };
-		8961566E1C49340100D667E2 /* SendOTPFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8961566B1C4933DE00D667E2 /* SendOTPFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8957EC831C5A2B6400F9F16B /* SendOTPFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8957EC7F1C5A2A5800F9F16B /* SendOTPFramework.framework */; };
+		8957EC841C5A2B6400F9F16B /* SendOTPFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8957EC7F1C5A2A5800F9F16B /* SendOTPFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		89EFE3341C477E2800B4B9DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EFE3331C477E2800B4B9DC /* main.m */; };
 		89EFE3371C477E2800B4B9DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EFE3361C477E2800B4B9DC /* AppDelegate.m */; };
 		89EFE33A1C477E2800B4B9DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EFE3391C477E2800B4B9DC /* ViewController.m */; };
@@ -19,13 +18,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		89EFE3501C47811600B4B9DC /* Embed Frameworks */ = {
+		8957EC851C5A2B6400F9F16B /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				8961566E1C49340100D667E2 /* SendOTPFramework.framework in Embed Frameworks */,
+				8957EC841C5A2B6400F9F16B /* SendOTPFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -33,7 +32,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		8961566B1C4933DE00D667E2 /* SendOTPFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SendOTPFramework.framework; sourceTree = "<group>"; };
+		8957EC7F1C5A2A5800F9F16B /* SendOTPFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SendOTPFramework.framework; sourceTree = "<group>"; };
 		89EFE32F1C477E2800B4B9DC /* SampleSendOTP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleSendOTP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89EFE3331C477E2800B4B9DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		89EFE3351C477E2800B4B9DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,8 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8961566C1C4933DE00D667E2 /* SendOTPFramework.framework in Frameworks */,
-				8961566D1C49340100D667E2 /* SendOTPFramework.framework in Frameworks */,
+				8957EC831C5A2B6400F9F16B /* SendOTPFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,7 +101,7 @@
 		89EFE34B1C477E5B00B4B9DC /* Framework */ = {
 			isa = PBXGroup;
 			children = (
-				8961566B1C4933DE00D667E2 /* SendOTPFramework.framework */,
+				8957EC7F1C5A2A5800F9F16B /* SendOTPFramework.framework */,
 			);
 			path = Framework;
 			sourceTree = "<group>";
@@ -118,7 +116,7 @@
 				89EFE32B1C477E2800B4B9DC /* Sources */,
 				89EFE32C1C477E2800B4B9DC /* Frameworks */,
 				89EFE32D1C477E2800B4B9DC /* Resources */,
-				89EFE3501C47811600B4B9DC /* Embed Frameworks */,
+				8957EC851C5A2B6400F9F16B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -300,7 +298,7 @@
 				);
 				INFOPLIST_FILE = SampleSendOTP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.walkover.mandapTak.SampleSendOTP;
+				PRODUCT_BUNDLE_IDENTIFIER = com.walkover.newSendOTP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -316,7 +314,7 @@
 				);
 				INFOPLIST_FILE = SampleSendOTP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.walkover.mandapTak.SampleSendOTP;
+				PRODUCT_BUNDLE_IDENTIFIER = com.walkover.newSendOTP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

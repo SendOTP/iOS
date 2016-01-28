@@ -9,9 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface SendOTP : NSObject
-@property (strong, nonatomic) NSString * sendOTPApiId;
+@property (strong, nonatomic) NSString * secretKey;
 
 +(instancetype) sharedManager;
-- (void) startWithApiId:(NSString*)apiId ;
+- (void) startWithApiId:(NSString*)secretKey ;
 
 @end

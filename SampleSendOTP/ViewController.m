@@ -25,8 +25,8 @@
 -(void)viewWillAppear:(BOOL)animated{
 }
 -(void)callSendOTP{
-    //Set app id
-    [SendOTP sharedManager].sendOTPApiId = @"m8CAcVwaPcrxMDy2hl7zo42z6H0FdofX5oWZBqV1FPcCEgsK6o75AEqOsIJLKSUlo0GMhA6np5JNaka4jVYip7ilvN7WvvQ4u2qz3ZzK_s34h-aCOF1zDDv8CAzbOgUS0AF_0T-OKgaJWBbbDMx10g==";
+    //Set your secrect key here
+    [SendOTP sharedManager].secretKey = @"Your own genrated secret key";
     NSString *frameworkDirPath = [[NSBundle mainBundle] privateFrameworksPath];
     NSString *frameworkBundlePath = [frameworkDirPath stringByAppendingPathComponent:@"SendOTPFramework.framework"];
     NSBundle *frameworkBundle = [NSBundle bundleWithPath:frameworkBundlePath];

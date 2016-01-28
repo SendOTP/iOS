@@ -6,7 +6,7 @@
 	<dict>
 		<key>AuthenticationViewController.nib</key>
 		<data>
-		qWdhxkk024j5B2EezKSdwFQc7Mo=
+		lEkmrKdwWzmLpbEO/xO0xhdlnO8=
 		</data>
 		<key>CountryCodes.plist</key>
 		<data>
@@ -18,15 +18,11 @@
 		</data>
 		<key>Headers/SendOTP.h</key>
 		<data>
-		2MzuboQqKTV0Uv8VqkvDHu4e7zg=
+		eoi2iJskKLxScKhboVLz4HssFYc=
 		</data>
 		<key>Headers/SendOTPFramework.h</key>
 		<data>
 		c5+VIMapfp7SVKI+CnPkk0r0seg=
-		</data>
-		<key>Headers/ServiceManager.h</key>
-		<data>
-		cM4M9tVN+ZXYmPAStPbUGPYD0uM=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -101,7 +97,7 @@
 	<dict>
 		<key>AuthenticationViewController.nib</key>
 		<data>
-		qWdhxkk024j5B2EezKSdwFQc7Mo=
+		lEkmrKdwWzmLpbEO/xO0xhdlnO8=
 		</data>
 		<key>CountryCodes.plist</key>
 		<data>
@@ -113,15 +109,11 @@
 		</data>
 		<key>Headers/SendOTP.h</key>
 		<data>
-		2MzuboQqKTV0Uv8VqkvDHu4e7zg=
+		eoi2iJskKLxScKhboVLz4HssFYc=
 		</data>
 		<key>Headers/SendOTPFramework.h</key>
 		<data>
 		c5+VIMapfp7SVKI+CnPkk0r0seg=
-		</data>
-		<key>Headers/ServiceManager.h</key>
-		<data>
-		cM4M9tVN+ZXYmPAStPbUGPYD0uM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
