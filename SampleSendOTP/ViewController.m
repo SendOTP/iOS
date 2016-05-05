@@ -45,22 +45,31 @@
 }
 
 #pragma mark SendOTPAuthenticationViewControllerDelegate
+
+// Called when authentication is successfull.
 -(void)authenticationisSuccessfulForMobileNumber:(NSString *)mobNo withCountryCode:(NSString *)countryCode{
     NSLog(@"Success");
     UIAlertView * alert = [[UIAlertView alloc]initWithTitle:@"Success!!" message:@"Number verified sucessfully." delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil];
     [alert show];
     
 }
+
+// Called when authentication is Failed.
+
 -(void)authenticationisFailedForMobileNumber:(NSString *)mobNo withCountryCode:(NSString *)countryCode{
     NSLog(@"Failed");
     UIAlertView * alert = [[UIAlertView alloc]initWithTitle:@"Failure!!" message:@"Number verification Failed." delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil];
     [alert show];
 }
+
+// Called when authentication is Cancelled.
+
 -(void)canceledAuthentication{
     UIAlertView * alert = [[UIAlertView alloc]initWithTitle:@"Failure!!" message:@"Authentication canceled" delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil];
     [alert show];
 }
 
+//Call Send OTP
 - (IBAction)callSendOTPButtonAction:(id)sender {
     [self callSendOTP];
 

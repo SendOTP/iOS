@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8957EC831C5A2B6400F9F16B /* SendOTPFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8957EC7F1C5A2A5800F9F16B /* SendOTPFramework.framework */; };
-		8957EC841C5A2B6400F9F16B /* SendOTPFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8957EC7F1C5A2A5800F9F16B /* SendOTPFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		897B7A3D1CDA04860081E3D5 /* SendOTPFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 897B7A3C1CDA04860081E3D5 /* SendOTPFramework.framework */; };
+		897B7A3E1CDA05700081E3D5 /* SendOTPFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 897B7A3C1CDA04860081E3D5 /* SendOTPFramework.framework */; };
+		897B7A3F1CDA05700081E3D5 /* SendOTPFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 897B7A3C1CDA04860081E3D5 /* SendOTPFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		89EFE3341C477E2800B4B9DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EFE3331C477E2800B4B9DC /* main.m */; };
 		89EFE3371C477E2800B4B9DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EFE3361C477E2800B4B9DC /* AppDelegate.m */; };
 		89EFE33A1C477E2800B4B9DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EFE3391C477E2800B4B9DC /* ViewController.m */; };
@@ -24,7 +25,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				8957EC841C5A2B6400F9F16B /* SendOTPFramework.framework in Embed Frameworks */,
+				897B7A3F1CDA05700081E3D5 /* SendOTPFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -32,7 +33,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		8957EC7F1C5A2A5800F9F16B /* SendOTPFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SendOTPFramework.framework; sourceTree = "<group>"; };
+		897B7A3C1CDA04860081E3D5 /* SendOTPFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SendOTPFramework.framework; sourceTree = "<group>"; };
 		89EFE32F1C477E2800B4B9DC /* SampleSendOTP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleSendOTP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89EFE3331C477E2800B4B9DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		89EFE3351C477E2800B4B9DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -50,7 +51,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8957EC831C5A2B6400F9F16B /* SendOTPFramework.framework in Frameworks */,
+				897B7A3D1CDA04860081E3D5 /* SendOTPFramework.framework in Frameworks */,
+				897B7A3E1CDA05700081E3D5 /* SendOTPFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +103,7 @@
 		89EFE34B1C477E5B00B4B9DC /* Framework */ = {
 			isa = PBXGroup;
 			children = (
-				8957EC7F1C5A2A5800F9F16B /* SendOTPFramework.framework */,
+				897B7A3C1CDA04860081E3D5 /* SendOTPFramework.framework */,
 			);
 			path = Framework;
 			sourceTree = "<group>";
@@ -298,7 +300,7 @@
 				);
 				INFOPLIST_FILE = SampleSendOTP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.walkover.newSendOTP;
+				PRODUCT_BUNDLE_IDENTIFIER = com.walkover.sendOtp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -314,7 +316,7 @@
 				);
 				INFOPLIST_FILE = SampleSendOTP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.walkover.newSendOTP;
+				PRODUCT_BUNDLE_IDENTIFIER = com.walkover.sendOtp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
