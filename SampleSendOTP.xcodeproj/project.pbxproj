@@ -7,9 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		897B7A3D1CDA04860081E3D5 /* SendOTPFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 897B7A3C1CDA04860081E3D5 /* SendOTPFramework.framework */; };
-		897B7A3E1CDA05700081E3D5 /* SendOTPFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 897B7A3C1CDA04860081E3D5 /* SendOTPFramework.framework */; };
-		897B7A3F1CDA05700081E3D5 /* SendOTPFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 897B7A3C1CDA04860081E3D5 /* SendOTPFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		89855E611CDB294F006141D5 /* SendOTPFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89855E5F1CDB294C006141D5 /* SendOTPFramework.framework */; };
+		89855E621CDB294F006141D5 /* SendOTPFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 89855E5F1CDB294C006141D5 /* SendOTPFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		89EFE3341C477E2800B4B9DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EFE3331C477E2800B4B9DC /* main.m */; };
 		89EFE3371C477E2800B4B9DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EFE3361C477E2800B4B9DC /* AppDelegate.m */; };
 		89EFE33A1C477E2800B4B9DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EFE3391C477E2800B4B9DC /* ViewController.m */; };
@@ -19,13 +18,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		8957EC851C5A2B6400F9F16B /* Embed Frameworks */ = {
+		89855E5E1CDB27B2006141D5 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				897B7A3F1CDA05700081E3D5 /* SendOTPFramework.framework in Embed Frameworks */,
+				89855E621CDB294F006141D5 /* SendOTPFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -33,7 +32,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		897B7A3C1CDA04860081E3D5 /* SendOTPFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SendOTPFramework.framework; sourceTree = "<group>"; };
+		89855E5F1CDB294C006141D5 /* SendOTPFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SendOTPFramework.framework; sourceTree = "<group>"; };
 		89EFE32F1C477E2800B4B9DC /* SampleSendOTP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleSendOTP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89EFE3331C477E2800B4B9DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		89EFE3351C477E2800B4B9DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,8 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				897B7A3D1CDA04860081E3D5 /* SendOTPFramework.framework in Frameworks */,
-				897B7A3E1CDA05700081E3D5 /* SendOTPFramework.framework in Frameworks */,
+				89855E611CDB294F006141D5 /* SendOTPFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,7 +101,7 @@
 		89EFE34B1C477E5B00B4B9DC /* Framework */ = {
 			isa = PBXGroup;
 			children = (
-				897B7A3C1CDA04860081E3D5 /* SendOTPFramework.framework */,
+				89855E5F1CDB294C006141D5 /* SendOTPFramework.framework */,
 			);
 			path = Framework;
 			sourceTree = "<group>";
@@ -118,7 +116,7 @@
 				89EFE32B1C477E2800B4B9DC /* Sources */,
 				89EFE32C1C477E2800B4B9DC /* Frameworks */,
 				89EFE32D1C477E2800B4B9DC /* Resources */,
-				8957EC851C5A2B6400F9F16B /* Embed Frameworks */,
+				89855E5E1CDB27B2006141D5 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

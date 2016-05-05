@@ -14,6 +14,8 @@
 @end
 @interface AuthenticationViewController : UIViewController
 @property (strong, nonatomic) UIColor *navBarColor;
+@property (strong, nonatomic) UIColor *navBarTitleColor;
+
 @property (weak, nonatomic) IBOutlet UIImageView *imgCompany;
 @property (strong, nonatomic) UIImage *companyImage;
 @property (weak, nonatomic) IBOutlet UIButton *countryCodeBtn;

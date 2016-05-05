@@ -19,29 +19,33 @@ Accept the following delegates -  <SendOTPAuthenticationViewControllerDelegate>
 
 
 Add the Secret key of sendOTP as shown.
-[SendOTP sharedManager].secretKey = @"Your own genrated secret key";
-(You can genrate App id from :-  http://sendotp.msg91.com/)
+        [SendOTP sharedManager].secretKey = @"Your own genrated secret key";
+        (You can genrate App id from :-  http://sendotp.msg91.com/)
 
-Then call the AuthenticationViewController using following code.
+        Then call the AuthenticationViewController using following code.
 
-NSString *frameworkDirPath = [[NSBundle mainBundle] privateFrameworksPath];
+        NSString *frameworkDirPath = [[NSBundle mainBundle] privateFrameworksPath];
 
-NSString *frameworkBundlePath = [frameworkDirPath stringByAppendingPathComponent:@"SendOTPFramework.framework"];
+        NSString *frameworkBundlePath = [frameworkDirPath stringByAppendingPathComponent:@"SendOTPFramework.framework"];
 
-NSBundle *frameworkBundle = [NSBundle bundleWithPath:frameworkBundlePath];
+        NSBundle *frameworkBundle = [NSBundle bundleWithPath:frameworkBundlePath];
 
-AuthenticationViewController *authenticationViewController = [[AuthenticationViewController alloc]initWithNibName:@"AuthenticationViewController" bundle:frameworkBundle];
-authenticationViewController.delegate = self;
-
-
-//set nav bar color
-
-authenticationViewController.navBarColor = [UIColor redColor];
+        AuthenticationViewController *authenticationViewController = [[AuthenticationViewController alloc]initWithNibName:@"AuthenticationViewController" bundle:frameworkBundle];
+        authenticationViewController.delegate = self;
 
 
-// set company logo
+        //set nav bar color
 
-authenticationViewController.companyImage = [UIImage imageNamed:@"MyCompanyLogo"];
+        authenticationViewController.navBarColor = [UIColor redColor];
+
+
+        // set company logo
+
+        authenticationViewController.companyImage = [UIImage imageNamed:@"MyCompanyLogo"];
+
+
+        // set navbar title color
+        authenticationViewController.navBarTitleColor = [UIColor blackColor];
 
 [self presentViewController:authenticationViewController animated:YES completion:nil];
 
@@ -50,25 +54,25 @@ Implement following delegate methods-
 
 // Called when authentication is successfull.
 -(void)authenticationisSuccessfulForMobileNumber:(NSString *)mobNo withCountryCode:(NSString *)countryCode{
-NSLog(@"Success");
-UIAlertView * alert = [[UIAlertView alloc]initWithTitle:@"Success!!" message:@"Number verified sucessfully." delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil];
-[alert show];
+    NSLog(@"Success");
+    UIAlertView * alert = [[UIAlertView alloc]initWithTitle:@"Success!!" message:@"Number verified sucessfully." delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil];
+    [alert show];
 
 }
 
 // Called when authentication is Failed.
 
 -(void)authenticationisFailedForMobileNumber:(NSString *)mobNo withCountryCode:(NSString *)countryCode{
-NSLog(@"Failed");
-UIAlertView * alert = [[UIAlertView alloc]initWithTitle:@"Failure!!" message:@"Number verification Failed." delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil];
-[alert show];
+    NSLog(@"Failed");
+    UIAlertView * alert = [[UIAlertView alloc]initWithTitle:@"Failure!!" message:@"Number verification Failed." delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil];
+    [alert show];
 }
 
 // Called when authentication is Cancelled.
 
 -(void)canceledAuthentication{
-UIAlertView * alert = [[UIAlertView alloc]initWithTitle:@"Failure!!" message:@"Authentication canceled" delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil];
-[alert show];
+    UIAlertView * alert = [[UIAlertView alloc]initWithTitle:@"Failure!!" message:@"Authentication canceled" delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil];
+    [alert show];
 }
 
 
