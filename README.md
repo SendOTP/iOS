@@ -11,9 +11,9 @@ Go to your class which is going to call the SendOTP
 
 Import the following ->
 
-#import <SendOTPFramework/SendOTP.h>
+        #import <SendOTPFramework/SendOTP.h>
 
-#import <SendOTPFramework/AuthenticationViewController.h>
+        #import <SendOTPFramework/AuthenticationViewController.h>
 
 Accept the following delegates -  <SendOTPAuthenticationViewControllerDelegate>
 
@@ -52,27 +52,27 @@ Add the Secret key of sendOTP as shown.
 
 Implement following delegate methods-
 
-// Called when authentication is successfull.
--(void)authenticationisSuccessfulForMobileNumber:(NSString *)mobNo withCountryCode:(NSString *)countryCode{
-    NSLog(@"Success");
-    UIAlertView * alert = [[UIAlertView alloc]initWithTitle:@"Success!!" message:@"Number verified sucessfully." delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil];
-    [alert show];
+        // Called when authentication is successfull.
+        -(void)authenticationisSuccessfulForMobileNumber:(NSString *)mobNo withCountryCode:(NSString *)countryCode{
+            NSLog(@"Success");
+            UIAlertView * alert = [[UIAlertView alloc]initWithTitle:@"Success!!" message:@"Number verified sucessfully." delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil];
+            [alert show];
 
-}
+        }
 
 // Called when authentication is Failed.
 
--(void)authenticationisFailedForMobileNumber:(NSString *)mobNo withCountryCode:(NSString *)countryCode{
-    NSLog(@"Failed");
-    UIAlertView * alert = [[UIAlertView alloc]initWithTitle:@"Failure!!" message:@"Number verification Failed." delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil];
-    [alert show];
-}
+        -(void)authenticationisFailedForMobileNumber:(NSString *)mobNo withCountryCode:(NSString *)countryCode{
+            NSLog(@"Failed");
+            UIAlertView * alert = [[UIAlertView alloc]initWithTitle:@"Failure!!" message:@"Number verification Failed." delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil];
+            [alert show];
+        }
 
 // Called when authentication is Cancelled.
 
--(void)canceledAuthentication{
-    UIAlertView * alert = [[UIAlertView alloc]initWithTitle:@"Failure!!" message:@"Authentication canceled" delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil];
-    [alert show];
-}
+        -(void)canceledAuthentication{
+            UIAlertView * alert = [[UIAlertView alloc]initWithTitle:@"Failure!!" message:@"Authentication canceled" delegate:nil cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil];
+            [alert show];
+        }
 
 
