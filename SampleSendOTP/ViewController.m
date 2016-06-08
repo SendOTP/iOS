@@ -22,8 +22,10 @@
    
     // Do any additional setup after loading the view, typically from a nib.
 }
+
 -(void)viewWillAppear:(BOOL)animated{
 }
+
 -(void)callSendOTP{
     //Set your secrect key here
     [SendOTP sharedManager].secretKey = @"Your own genrated secret key";

@@ -4,9 +4,21 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>AuthenticationViewController.nib</key>
+		<key>AuthenticationViewController~ipad.nib/objects-8.0+.nib</key>
 		<data>
-		GlfV/zvXUYUeJyOSyfuxe0z48+E=
+		35L3TdYE+8hwBEh8oOP6Pcei1fM=
+		</data>
+		<key>AuthenticationViewController~ipad.nib/runtime.nib</key>
+		<data>
+		f48mCBM0dCAsVAnVcV7QH90icVY=
+		</data>
+		<key>AuthenticationViewController~iphone.nib/objects-8.0+.nib</key>
+		<data>
+		i4kYfbC5eocQAtd4c8gcAiRyvGw=
+		</data>
+		<key>AuthenticationViewController~iphone.nib/runtime.nib</key>
+		<data>
+		uU+CGny7Ik0q0gLYCD9d6O3ssuU=
 		</data>
 		<key>CountryCodes.plist</key>
 		<data>
@@ -26,7 +38,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		syt862JARUy638knMFx/MKf2eIo=
+		JcO1j8BDu+C8mVJUPZVOytXCMtM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -95,90 +107,270 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>AuthenticationViewController.nib</key>
-		<data>
-		GlfV/zvXUYUeJyOSyfuxe0z48+E=
-		</data>
+		<key>AuthenticationViewController~ipad.nib/objects-8.0+.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			35L3TdYE+8hwBEh8oOP6Pcei1fM=
+			</data>
+			<key>hash2</key>
+			<data>
+			4TpmFGsDbVQ/g0keB5mMxQXSXvSnLO26Ui7ufzpYB1U=
+			</data>
+		</dict>
+		<key>AuthenticationViewController~ipad.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			f48mCBM0dCAsVAnVcV7QH90icVY=
+			</data>
+			<key>hash2</key>
+			<data>
+			SCTPi9Jlq7IpqKv4JCltRDgxiBvsDe9LB01YwoK+QyU=
+			</data>
+		</dict>
+		<key>AuthenticationViewController~iphone.nib/objects-8.0+.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			i4kYfbC5eocQAtd4c8gcAiRyvGw=
+			</data>
+			<key>hash2</key>
+			<data>
+			HHW9KCVHbNnBEivW8g/WMxvf1WUNYM3RS6fi1m42K+E=
+			</data>
+		</dict>
+		<key>AuthenticationViewController~iphone.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			uU+CGny7Ik0q0gLYCD9d6O3ssuU=
+			</data>
+			<key>hash2</key>
+			<data>
+			awgNJY+6KnxNegTgJkhP48uh96Wi+Zd/WjgqwkKc0Gc=
+			</data>
+		</dict>
 		<key>CountryCodes.plist</key>
-		<data>
-		aaIBbiFcr5jyyZeAy7OuYY+HC1Q=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			aaIBbiFcr5jyyZeAy7OuYY+HC1Q=
+			</data>
+			<key>hash2</key>
+			<data>
+			PQQm40rOx1yAIC91KOQIGfbuvTwcXAqAiy/Xah0P4sw=
+			</data>
+		</dict>
 		<key>Headers/AuthenticationViewController.h</key>
-		<data>
-		pDotlo5oMDBQ5GJFwg7cT4W9GoU=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			pDotlo5oMDBQ5GJFwg7cT4W9GoU=
+			</data>
+			<key>hash2</key>
+			<data>
+			/qoibKOGfluYtoTVDQSOQtpTELDxxMXLy87lqZcnLTw=
+			</data>
+		</dict>
 		<key>Headers/SendOTP.h</key>
-		<data>
-		eoi2iJskKLxScKhboVLz4HssFYc=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			eoi2iJskKLxScKhboVLz4HssFYc=
+			</data>
+			<key>hash2</key>
+			<data>
+			CCV2TV6sx+NzVv8zDG+kdlWRAefZqIZb2iZDxJeyYVg=
+			</data>
+		</dict>
 		<key>Headers/SendOTPFramework.h</key>
-		<data>
-		c5+VIMapfp7SVKI+CnPkk0r0seg=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			c5+VIMapfp7SVKI+CnPkk0r0seg=
+			</data>
+			<key>hash2</key>
+			<data>
+			yd1FGzYvY8xIxCJzZY43heOqNH80dvdYPtnHgdIYnh8=
+			</data>
+		</dict>
 		<key>Modules/module.modulemap</key>
-		<data>
-		E8HjnJhILdRAEL2hJEazG3cVWuI=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			E8HjnJhILdRAEL2hJEazG3cVWuI=
+			</data>
+			<key>hash2</key>
+			<data>
+			lH2QLvQpkDKfbQsUguYtf7m2dhRE+ctxLF6xSCPzpkw=
+			</data>
+		</dict>
 		<key>SVProgressHUD.bundle/angle-mask.png</key>
-		<data>
-		ZP3MEyOzyiMbxQeDcSHXarN3E2I=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZP3MEyOzyiMbxQeDcSHXarN3E2I=
+			</data>
+			<key>hash2</key>
+			<data>
+			RecEac/P/iyrzDWmdgpJtqFucqKPIegCelXk3xZxpz4=
+			</data>
+		</dict>
 		<key>SVProgressHUD.bundle/angle-mask@2x.png</key>
-		<data>
-		bJrR0ylq3sQNppqIm9ryAXWPJzE=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			bJrR0ylq3sQNppqIm9ryAXWPJzE=
+			</data>
+			<key>hash2</key>
+			<data>
+			IVbCt81QZyMhXCP/8hH5c2XDqKN7lH9KAXSTo3GC4V0=
+			</data>
+		</dict>
 		<key>SVProgressHUD.bundle/angle-mask@3x.png</key>
-		<data>
-		e67DzzmwDyqECcm6R5/RNKjbVl8=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			e67DzzmwDyqECcm6R5/RNKjbVl8=
+			</data>
+			<key>hash2</key>
+			<data>
+			I4vKnZvJcUK90ioS8fZ6eVAECOyrX03NJKDYQKQjYME=
+			</data>
+		</dict>
 		<key>SVProgressHUD.bundle/error.png</key>
-		<data>
-		7dq6xarqzSdPyQEKKpVGUWcpCIc=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			7dq6xarqzSdPyQEKKpVGUWcpCIc=
+			</data>
+			<key>hash2</key>
+			<data>
+			QYOnVST37LWnhW/tdYobfjFQibhMdcioGEAYxsb70Iw=
+			</data>
+		</dict>
 		<key>SVProgressHUD.bundle/error@2x.png</key>
-		<data>
-		14JkE/rT3Tfa4aP0CmgGdheZAds=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			14JkE/rT3Tfa4aP0CmgGdheZAds=
+			</data>
+			<key>hash2</key>
+			<data>
+			Akw78gJ59aerRmpLEDYJEPAkPkC3Hh8z4T7Kic0Yg7k=
+			</data>
+		</dict>
 		<key>SVProgressHUD.bundle/error@3x.png</key>
-		<data>
-		eWTkyKjL4ARvSmVff4vOLLV8GIc=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			eWTkyKjL4ARvSmVff4vOLLV8GIc=
+			</data>
+			<key>hash2</key>
+			<data>
+			7onGrwrkLUKbXBK3kUdxzYu0lxyEPn/h0Uuc6Ri+DYU=
+			</data>
+		</dict>
 		<key>SVProgressHUD.bundle/info.png</key>
-		<data>
-		DMk9YuaU7CZe64ki8Xed0+svfBQ=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			DMk9YuaU7CZe64ki8Xed0+svfBQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			pjc5E6EwCapVNZcNFpijGXuGbQwF1rTGZpEJhU3vdCM=
+			</data>
+		</dict>
 		<key>SVProgressHUD.bundle/info@2x.png</key>
-		<data>
-		nrK8FPd2HTtonPvOAyLccnDl7vA=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			nrK8FPd2HTtonPvOAyLccnDl7vA=
+			</data>
+			<key>hash2</key>
+			<data>
+			bvhuWmNyYiicYCzZmAckxRvJxaviTgXXxlrbYtCjVvI=
+			</data>
+		</dict>
 		<key>SVProgressHUD.bundle/info@3x.png</key>
-		<data>
-		t3gMcN3HjVSrntcw4Pu4yOoLazo=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			t3gMcN3HjVSrntcw4Pu4yOoLazo=
+			</data>
+			<key>hash2</key>
+			<data>
+			8WLCL1Z5izu8M+ajkd9N0XgH7UNYeciCNhPxJEX+Otc=
+			</data>
+		</dict>
 		<key>SVProgressHUD.bundle/success.png</key>
-		<data>
-		fFFaIAdJaQLiHAHxtZdSu3UK9mw=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			fFFaIAdJaQLiHAHxtZdSu3UK9mw=
+			</data>
+			<key>hash2</key>
+			<data>
+			FUnyZgjlKr+bD8Ol9Mwka6ms0zdBPK2mYkeZ9dcp24o=
+			</data>
+		</dict>
 		<key>SVProgressHUD.bundle/success@2x.png</key>
-		<data>
-		F+jTDjhSDE75FwiWoc3aVsqlOZU=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			F+jTDjhSDE75FwiWoc3aVsqlOZU=
+			</data>
+			<key>hash2</key>
+			<data>
+			hyK1IZxvIPb78UPdvG4SrAM8xRsyaaQcpi4tCFeLL2w=
+			</data>
+		</dict>
 		<key>SVProgressHUD.bundle/success@3x.png</key>
-		<data>
-		ktkPsgjbXsEzUyaptquUISBzqro=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			ktkPsgjbXsEzUyaptquUISBzqro=
+			</data>
+			<key>hash2</key>
+			<data>
+			Ai4YuKg3Kdeno2XYmylm/q00pDLBG0pt8wTNaxWcVEA=
+			</data>
+		</dict>
 		<key>cross.png</key>
-		<data>
-		ndRb+f5YLCpo6QM+ssyy/uXrGvs=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			ndRb+f5YLCpo6QM+ssyy/uXrGvs=
+			</data>
+			<key>hash2</key>
+			<data>
+			m60yQ3H46Ot9La1JcDb7vKVPxz9LBooAjODwM+XwXnc=
+			</data>
+		</dict>
 		<key>cross@2x.png</key>
-		<data>
-		dGRyarIfPI5lKvEyqQiaBZ5x/ks=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			dGRyarIfPI5lKvEyqQiaBZ5x/ks=
+			</data>
+			<key>hash2</key>
+			<data>
+			iM2S6rv+NJd5C803HojLDPS1XI1wSXtuJ+S12L3qwKU=
+			</data>
+		</dict>
 		<key>defaultLogo.png</key>
-		<data>
-		OhXiHP2ftrop+8gSKqrdvpfDl+s=
-		</data>
+		<dict>
+			<key>hash</key>
+			<data>
+			OhXiHP2ftrop+8gSKqrdvpfDl+s=
+			</data>
+			<key>hash2</key>
+			<data>
+			9FL7B1pKDybG7p50b1yZvZ/XUG03DoS5/GExeJNL1Fs=
+			</data>
+		</dict>
 	</dict>
 	<key>rules</key>
 	<dict>
