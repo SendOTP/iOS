@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		891935B01D0807F100069CF3 /* SendOTPFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 891935AC1D08076F00069CF3 /* SendOTPFramework.framework */; };
-		891935B11D0807F100069CF3 /* SendOTPFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 891935AC1D08076F00069CF3 /* SendOTPFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		89AD6DB41D09479B00E74031 /* SendOTPFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89AD6DB21D09478100E74031 /* SendOTPFramework.framework */; };
+		89AD6DB51D09479B00E74031 /* SendOTPFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 89AD6DB21D09478100E74031 /* SendOTPFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		89EFE3341C477E2800B4B9DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EFE3331C477E2800B4B9DC /* main.m */; };
 		89EFE3371C477E2800B4B9DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EFE3361C477E2800B4B9DC /* AppDelegate.m */; };
 		89EFE33A1C477E2800B4B9DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EFE3391C477E2800B4B9DC /* ViewController.m */; };
@@ -24,7 +24,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				891935B11D0807F100069CF3 /* SendOTPFramework.framework in Embed Frameworks */,
+				89AD6DB51D09479B00E74031 /* SendOTPFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -32,7 +32,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		891935AC1D08076F00069CF3 /* SendOTPFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SendOTPFramework.framework; sourceTree = "<group>"; };
+		89AD6DB21D09478100E74031 /* SendOTPFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SendOTPFramework.framework; sourceTree = "<group>"; };
 		89EFE32F1C477E2800B4B9DC /* SampleSendOTP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleSendOTP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89EFE3331C477E2800B4B9DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		89EFE3351C477E2800B4B9DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				891935B01D0807F100069CF3 /* SendOTPFramework.framework in Frameworks */,
+				89AD6DB41D09479B00E74031 /* SendOTPFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,7 +101,7 @@
 		89EFE34B1C477E5B00B4B9DC /* Framework */ = {
 			isa = PBXGroup;
 			children = (
-				891935AC1D08076F00069CF3 /* SendOTPFramework.framework */,
+				89AD6DB21D09478100E74031 /* SendOTPFramework.framework */,
 			);
 			path = Framework;
 			sourceTree = "<group>";
