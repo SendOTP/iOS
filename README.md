@@ -80,8 +80,7 @@ In Case if you face any problem while submitting the app to store:-
 You need to add a run script in your project:-
 APP_PATH="${TARGET_BUILD_DIR}/${WRAPPER_NAME}"
 
-# This script loops through the frameworks embedded in the application and
-# removes unused architectures.
+# This script loops through the frameworks embedded in the application and removes unused architectures.
 find "$APP_PATH" -name '*.framework' -type d | while read -r FRAMEWORK
 do
     FRAMEWORK_EXECUTABLE_NAME=$(defaults read "$FRAMEWORK/Info.plist" CFBundleExecutable)
@@ -106,6 +105,7 @@ do
     mv "$FRAMEWORK_EXECUTABLE_PATH-merged" "$FRAMEWORK_EXECUTABLE_PATH"
 
 done
+
 Note:- Go in the build phase section of your project and Click on the Plus button and then select new run script and then paste the above script.
 This will remove the unwanted architecture from Dynamic Libraries.
 
