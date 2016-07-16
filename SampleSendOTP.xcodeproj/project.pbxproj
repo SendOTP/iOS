@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		896784301D37BA0300E3926D /* SwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8967842F1D37BA0300E3926D /* SwiftViewController.swift */; };
 		89AD6DB41D09479B00E74031 /* SendOTPFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89AD6DB21D09478100E74031 /* SendOTPFramework.framework */; };
 		89AD6DB51D09479B00E74031 /* SendOTPFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 89AD6DB21D09478100E74031 /* SendOTPFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		89EFE3341C477E2800B4B9DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 89EFE3331C477E2800B4B9DC /* main.m */; };
@@ -32,6 +33,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8967842F1D37BA0300E3926D /* SwiftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftViewController.swift; sourceTree = "<group>"; };
 		89AD6DB21D09478100E74031 /* SendOTPFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SendOTPFramework.framework; sourceTree = "<group>"; };
 		89EFE32F1C477E2800B4B9DC /* SampleSendOTP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleSendOTP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89EFE3331C477E2800B4B9DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				89EFE3361C477E2800B4B9DC /* AppDelegate.m */,
 				89EFE3381C477E2800B4B9DC /* ViewController.h */,
 				89EFE3391C477E2800B4B9DC /* ViewController.m */,
+				8967842F1D37BA0300E3926D /* SwiftViewController.swift */,
 				89EFE33B1C477E2800B4B9DC /* Main.storyboard */,
 				89EFE33E1C477E2800B4B9DC /* Assets.xcassets */,
 				89EFE3401C477E2800B4B9DC /* LaunchScreen.storyboard */,
@@ -133,6 +136,7 @@
 		89EFE3271C477E2800B4B9DC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Walkover;
 				TargetAttributes = {
@@ -177,6 +181,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				896784301D37BA0300E3926D /* SwiftViewController.swift in Sources */,
 				89EFE33A1C477E2800B4B9DC /* ViewController.m in Sources */,
 				89EFE3371C477E2800B4B9DC /* AppDelegate.m in Sources */,
 				89EFE3341C477E2800B4B9DC /* main.m in Sources */,
@@ -291,6 +296,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,6 +307,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.walkover.sendOtp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -308,6 +315,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",

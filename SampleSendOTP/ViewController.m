@@ -36,10 +36,9 @@
     authenticationViewController.delegate = self;
     //set nav bar color
     authenticationViewController.navBarColor = [UIColor colorWithRed:30/255.0f green:118/255.0f blue:186/255.0f alpha:1];
-    // set company logo
     // set navbar title color
    authenticationViewController.navBarTitleColor = [UIColor whiteColor];
-
+    // set company logo
     authenticationViewController.companyImage = [UIImage imageNamed:@"MyCompanyLogo"];
     [self presentViewController:authenticationViewController animated:YES completion:nil];
 
