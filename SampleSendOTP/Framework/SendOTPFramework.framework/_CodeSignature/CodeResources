@@ -4,21 +4,9 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>AuthenticationViewController~ipad.nib/objects-8.0+.nib</key>
+		<key>AuthenticationViewController.nib</key>
 		<data>
-		bcrQyOYocdXnSx4pTtnS3GLlPa8=
-		</data>
-		<key>AuthenticationViewController~ipad.nib/runtime.nib</key>
-		<data>
-		VjzKpKyTWwf91VXUlao2/LNQlRw=
-		</data>
-		<key>AuthenticationViewController~iphone.nib/objects-8.0+.nib</key>
-		<data>
-		HcOnvxL9/oe/bvJMrw4tcCERREk=
-		</data>
-		<key>AuthenticationViewController~iphone.nib/runtime.nib</key>
-		<data>
-		mlGs1xjozL2bTs1tEa6kLdFToO4=
+		VRliusrm9pC4z/mPDR3eArjX530=
 		</data>
 		<key>CountryCodes.plist</key>
 		<data>
@@ -38,7 +26,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		JcO1j8BDu+C8mVJUPZVOytXCMtM=
+		vC4rdMW+6le56l1hoXjLfU5VzFU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -107,48 +95,15 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>AuthenticationViewController~ipad.nib/objects-8.0+.nib</key>
+		<key>AuthenticationViewController.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bcrQyOYocdXnSx4pTtnS3GLlPa8=
+			VRliusrm9pC4z/mPDR3eArjX530=
 			</data>
 			<key>hash2</key>
 			<data>
-			v/Xbv9tJ1IDyvTK0272F0WqhsGwjM4JXoD1GPQMgYB8=
-			</data>
-		</dict>
-		<key>AuthenticationViewController~ipad.nib/runtime.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			VjzKpKyTWwf91VXUlao2/LNQlRw=
-			</data>
-			<key>hash2</key>
-			<data>
-			dx+lYMPd+UiNW99TnmPVglZil70t/WXeYAhBGJnaeco=
-			</data>
-		</dict>
-		<key>AuthenticationViewController~iphone.nib/objects-8.0+.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			HcOnvxL9/oe/bvJMrw4tcCERREk=
-			</data>
-			<key>hash2</key>
-			<data>
-			jQe7PzEpTtFQ8gAqGOdRP0ntX3GxUSxck6d9eq/jfq4=
-			</data>
-		</dict>
-		<key>AuthenticationViewController~iphone.nib/runtime.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			mlGs1xjozL2bTs1tEa6kLdFToO4=
-			</data>
-			<key>hash2</key>
-			<data>
-			VmGDf7BSHaTxfROE05CSwjs+M8EjUblIM46QVy0YLM0=
+			FszshQa2MkmJMmLj2HjenwrDCR/7YKv4YxJJl0Hdhaw=
 			</data>
 		</dict>
 		<key>CountryCodes.plist</key>
