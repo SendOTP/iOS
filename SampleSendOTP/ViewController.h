@@ -7,8 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <SendOTPFramework/SendOTP.h>
-#import <SendOTPFramework/AuthenticationViewController.h>
 @interface ViewController : UIViewController
 
 

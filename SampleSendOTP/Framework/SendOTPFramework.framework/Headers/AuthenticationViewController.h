@@ -15,9 +15,12 @@
 @interface AuthenticationViewController : UIViewController
 @property (strong, nonatomic) UIColor *navBarColor;
 @property (strong, nonatomic) UIColor *navBarTitleColor;
+@property (strong, nonatomic) NSString * authkey;
+@property (strong, nonatomic) NSString * customMessage;
 
-@property (weak, nonatomic) IBOutlet UIImageView *imgCompany;
+@property (nonatomic, assign) BOOL accessTypeShouldBeHTTP;
+@property (strong, nonatomic) NSString * mobileNumber;
 @property (strong, nonatomic) UIImage *companyImage;
-@property (weak, nonatomic) IBOutlet UIButton *countryCodeBtn;
+@property (strong, nonatomic) NSString * senderId;
 @property (strong, nonatomic) id <SendOTPAuthenticationViewControllerDelegate> delegate;
 @end

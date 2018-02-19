@@ -15,7 +15,6 @@ FOUNDATION_EXPORT double SendOTPFrameworkVersionNumber;
 FOUNDATION_EXPORT const unsigned char SendOTPFrameworkVersionString[];
 //#import <SendOTPFramework/ServiceManager.h>
 #import <SendOTPFramework/AuthenticationViewController.h>
-#import <SendOTPFramework/SendOTP.h>
 
 // In this header, you should import all the public headers of your framework using statements like #import <SendOTPFramework/PublicHeader.h>
 

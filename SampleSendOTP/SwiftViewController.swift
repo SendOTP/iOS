@@ -12,56 +12,56 @@ class SwiftViewController: UIViewController,SendOTPAuthenticationViewControllerD
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // Do any additional setup after loading the view.
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
+        
+        // Dispose of any resources that can be recreated.
     }
-    @IBAction func openSendOtp(sender: AnyObject) {
-        SendOTP.sharedManager().secretKey  = "HussainTest";
-        //Get SendOTP framework bundle
-        let frameworkBundle = NSBundle(identifier: "com.walkover.SendOTPFramework")
+    
+    @IBAction func openSendOtp(_ sender: AnyObject) {
+        let frameworkBundle = Bundle(identifier: "com.walkover.SendOTPFramework")
         let authViewControler :AuthenticationViewController = AuthenticationViewController.init(nibName: "AuthenticationViewController", bundle: frameworkBundle)
         authViewControler.delegate = self
-        //set nav bar color
-        authViewControler.navBarColor = UIColor.blueColor()
-        //Set nav bar title color
-        authViewControler.navBarTitleColor = UIColor.whiteColor()
+        authViewControler.navBarColor = UIColor.blue
+        
+        // set navbar title color
+        authViewControler.navBarTitleColor = UIColor.white
+        
+        //Set your auth key here
+        authViewControler.authkey = "xxxxxxxxxxxxxxxx"
+        
         // set company logo
-        authViewControler.companyImage = UIImage(named: "MyCompanyLogo")
-        self.presentViewController(authViewControler, animated: true, completion: nil)
-    
+        authViewControler.companyImage = #imageLiteral(resourceName: "defaultLogo.png")
+        
+        // set custom message here with ##OTP##
+        authViewControler.customMessage = "Your verification code is ##OTP##."
+        
+        // set the sender id here
+        authViewControler.senderId = "OTPSMS"
+        
+        // set access type here
+        authViewControler.accessTypeShouldBeHTTP = false // sets https by default
+        
+        self.present(authViewControler, animated: true, completion: nil)
     }
     
-    func authenticationisSuccessfulForMobileNumber(mobNo: String!, withCountryCode countryCode: String!) {
+    func authenticationisSuccessful(forMobileNumber mobNo: String!, withCountryCode countryCode: String!) {
         print(mobNo)
         print("Success")
-        let alert = UIAlertView()
-        alert.title = "Success"
-        alert.message = "Authentication is Successful."
-        alert.addButtonWithTitle("Ok")
-        alert.show()
     }
     
-    func authenticationisFailedForMobileNumber(mobNo: String!, withCountryCode countryCode: String!) {
+    func authenticationisFailed(forMobileNumber mobNo: String!, withCountryCode countryCode: String!) {
         print(mobNo)
         print("Failure")
-        let alert = UIAlertView()
-        alert.title = "Failure"
-        alert.message = "Authentication is Failed."
-        alert.addButtonWithTitle("Ok")
-        alert.show()
-        
     }
     
     func canceledAuthentication() {
         print("Failure")
-        let alert = UIAlertView()
-        alert.title = "Failure"
-        alert.message = "Authentication is Canceled."
-        alert.addButtonWithTitle("Ok")
-        alert.show()
-        
     }
     
 }
+
